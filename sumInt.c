@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 
   gettimeofday(&startTime, NULL);
 
-  for (i = 0; i < 100000; i++) {
+  for (i = 0; i < 1000000; i++) {
     sum = sum + i;
   }
 
