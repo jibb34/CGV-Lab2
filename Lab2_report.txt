@@ -1,0 +1,15 @@
+Timing on sumInt.c for different length loops on personal machine
+iterations(x100k):time(μs)
+1:582
+2:942
+3:1530
+4:2194
+5:3262
+6:3132
+7:2685
+8:3529
+9:1394
+10:4617
+Interesting to note that this is not a 1-1 Function, maybe due to background task sharing?
+Hypothesis:
+Should be more consistent on HPC due to it being a "clean" core
